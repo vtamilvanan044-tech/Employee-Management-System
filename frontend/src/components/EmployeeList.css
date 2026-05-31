@@ -1,0 +1,33 @@
+/* Buttons inside the actions column */
+td > button {
+  margin-right: 10px;
+  padding: 6px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+/* Edit button default and hover */
+td > button:first-child {
+  background-color: #3498db; /* blue */
+  color: white;
+}
+
+td > button:first-child:hover {
+  background-color: #1d6fa5; /* darker blue */
+  color: #e0e0e0;
+}
+
+/* Delete button default and hover */
+td > button:last-child {
+  background-color: #e74c3c; /* red */
+  color: white;
+}
+
+td > button:last-child:hover {
+  background-color: #b73023; /* darker red */
+  color: #f5f5f5;
+}
